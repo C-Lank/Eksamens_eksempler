@@ -1,0 +1,37 @@
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	.column {
+		width:50%;
+	}
+
+}
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.column {
+		width:100%;
+		text-align:center;
+	}
+
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	#maincontent {
+		padding:0;
+	}
+
+	.column {
+		width:100%;
+		margin:auto;
+		text-align:center;
+	}
+
+	.column2 {
+		width:90%;
+		margin-bottom:30px;
+	}
+}
+
